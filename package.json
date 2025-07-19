@@ -15,9 +15,8 @@
   },
   "devDependencies": {},
   "author": "Ahktul Vorrak",
-  "license": "MIT"
-}
-
-"engines": {
-  "node": "20.x"
+  "license": "MIT",
+  "engines": {
+    "node": "20.x"
+  }
 }
