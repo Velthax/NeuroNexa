@@ -1,5 +1,7 @@
+// next.config.js must include static export settings
+// If not already present, ensure this is in your next.config.js:
+// module.exports = { output: 'export' }
 
-// pages/index.tsx
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { BrainCircuit, Terminal, LucideZap } from "lucide-react";
@@ -15,7 +17,7 @@ export default function NeuroNexaLanding() {
         <meta property="og:title" content="NeuroNexa" />
         <meta property="og:description" content="Elite prompt arsenal for AI mastery, KDP books, and command-line mind control." />
         <meta property="og:image" content="/neuronexa-logo.png" />
-        <meta property="og:url" content="https://neuronexa.replit.app" />
+        <meta property="og:url" content="https://neuronexa.netlify.app" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
