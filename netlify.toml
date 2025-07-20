@@ -3,18 +3,7 @@
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "22.x"
+  NODE_VERSION = "20.12.2"
 
-[functions]
-  directory = "netlify/functions"
-
-[dev]
-  command = "npm run dev"
-  port = 3000
-  targetPort = 3000
-  autoLaunch = true
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[[plugins]]
+  package = "@netlify/next"
