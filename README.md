@@ -1,29 +1,40 @@
-# 🧠 NeuroNexa – Where Thought Becomes Command
+# ⚡ NeuroNexa — Where Thought Becomes Command
 
-Welcome to **NeuroNexa**, your elite prompt arsenal and AI interface forged by **Velthax**. NeuroNexa empowers creators, coders, and strategists to command AI like gods — with precision, clarity, and dominance.
+**NeuroNexa** is an AI-based prompt-selling platform developed by **Velthax**, engineered for creators, power users, and innovators.  
+It empowers users to purchase elite-level AI prompts to **dominate productivity, storytelling, marketing, startup ideation**, and more.
 
-> “Don’t request. Command.” – Velthax Doctrine
-
----
-
-## 🚀 Features
-
-- ⚔️ **100+ Elite Prompts** – Black-ops level instructions in psychology, programming, business, storytelling, and automation.
-- 💻 **Command-Line Mind Control** – Prompts so powerful they feel like you’re coding reality.
-- 📚 **KDP-Ready Prompts** – Create bestsellers using strategic writing blueprints.
-- 🧠 **Freelancer Arsenal** – Get more clients by automating elite responses and content.
+> “You are not selling prompts. You are selling control over reality.” — AHK’TUL VOR’RAK
 
 ---
 
-## 📦 Project Structure
+## 🚀 Live Preview
+🔗 [https://neuronexa.netlify.app](https://neuronexa.netlify.app)
 
-```bash
-├── components/           # UI components (cards, buttons)
-├── pages/                # Next.js routing pages
-│   └── index.tsx         # NeuroNexa landing page
-├── public/               # Static assets (favicon, logo)
-├── styles/               # Global styles if needed
-├── tailwind.config.js    # Tailwind configuration
-├── next.config.js        # Next.js config (static export)
-├── package.json          # Dependencies and scripts
-└── .nvmrc                # Forces Node v20 for Netlify
+---
+
+## 🧠 Features
+
+- ⚡ Prompt marketplace UI
+- 🎯 Built with Next.js 14 (App Router)
+- 🎨 Styled with Tailwind CSS
+- 🌑 Fully responsive dark UI
+- 🧱 Modular components for scalability
+- 💳 Ready for Stripe integration (optional)
+- 🚀 Netlify & GitHub ready
+
+---
+
+## 🧬 Tech Stack
+
+| Technology    | Purpose                            |
+|---------------|-------------------------------------|
+| Next.js 14    | React Framework (SSR/Static/AppDir) |
+| Tailwind CSS  | Utility-first styling               |
+| TypeScript    | Type-safe development               |
+| Netlify       | One-click CI/CD deployment          |
+| GitHub        | Version control                     |
+
+---
+
+## 📁 Project Structure
+
