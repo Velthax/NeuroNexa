@@ -1,13 +1,11 @@
 {
   "name": "neuronexa",
   "version": "1.0.0",
-  "private": true,
-  "description": "NeuroNexa – Where Thought Becomes Command. Forge elite prompts and AI power tools.",
+  "description": "NeuroNexa – Where Thought Becomes Command.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "next": "14.1.0",
@@ -18,8 +16,6 @@
     "postcss": "^8.4.23"
   },
   "devDependencies": {
-    "eslint": "8.56.0",
-    "eslint-config-next": "14.1.0",
-    "typescript": "^5.4.0"
+    "@netlify/next": "^5.1.0"
   }
 }
