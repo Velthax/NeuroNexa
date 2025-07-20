@@ -1,3 +1,4 @@
+
 {
   "name": "neuronexa",
   "version": "1.0.0",
@@ -17,6 +18,6 @@
   "author": "Ahktul Vorrak",
   "license": "MIT",
   "engines": {
-  "node": "20.11.1"
+    "node": "20.11.1"
   }
 }
