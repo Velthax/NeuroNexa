@@ -3,4 +3,4 @@ command = "npm install && npm run build && npm run export"
 publish = "out"
 
 [build.environment]
-NODE_VERSION = "20"
+NODE_VERSION = "20.x"
