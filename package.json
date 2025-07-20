@@ -18,5 +18,9 @@
   "license": "MIT",
   "engines": {
     "node": "20.x"
-  }
+  },
+  "scripts": {
+  "build": "next build",
+  "export": "next export"
+ }
 }
