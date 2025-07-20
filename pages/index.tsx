@@ -3,6 +3,7 @@
 // module.exports = { output: 'export' }
 
 import { Button } from "@/components/ui/button";
+import '@/styles/globals.css';
 import { Card, CardContent } from "@/components/ui/card";
 import { BrainCircuit, Terminal, LucideZap } from "lucide-react";
 import Image from "next/image";
