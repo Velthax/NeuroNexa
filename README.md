@@ -1,37 +1,19 @@
-# 🧠 NeuroNexa – Where Thought Becomes Command
+# NeuroNexa
 
-![NeuroNexa Logo](./public/neuronexa-logo.png)
+**NeuroNexa** – Where Thought Becomes Command.  
+Forge elite prompts and build AI power tools.
 
-**NeuroNexa** is an elite prompt arsenal and dark-themed AI command interface. This static landing page is built for creators, coders, and power-communicators who want to **dominate AI**, not just interact with it.
+This is a static Next.js site built for Netlify deployment.
 
----
+## Scripts
 
-## ⚡ What It Offers
+- `npm run dev` — Local development
+- `npm run build` — Build for production
+- `npm run export` — Export as static HTML for Netlify
 
-- 🔐 **100+ Black-ops Prompts**  
-  For coding, manipulation, storytelling, automation & KDP publishing.
+## Deploy
 
-- 🧠 **Command-Line Mindset**  
-  Don’t ask. **Command**. NeuroNexa teaches you to speak in prompt code.
+Set the following in Netlify:
 
-- 🛠️ **Tools to Launch AI Businesses**  
-  Turn prompts into income streams with pre-built, deploy-ready tools.
-
----
-
-## 🚀 Tech Stack
-
-- [Next.js](https://nextjs.org/) – Static Export Mode  
-- [TailwindCSS](https://tailwindcss.com/) – Custom dark UI  
-- [Lucide Icons](https://lucide.dev/) – Clean, scalable SVGs  
-- Fully responsive, animated radial gradient background  
-- Optimized for SEO & social preview cards
-
----
-
-## 🔧 Setup & Deploy (Local & Netlify)
-
-```bash
-npm install
-npm run build
-npm run export
+- **Build Command**: `npm run export`
+- **Publish Directory**: `out`
