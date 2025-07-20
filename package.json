@@ -2,24 +2,30 @@
   "name": "neuronexa",
   "version": "1.0.0",
   "description": "NeuroNexa – Where Thought Becomes Command. Forge elite prompts and build AI power tools.",
+  "author": "Ahktul Vorrak",
+  "license": "MIT",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.24"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.23",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.5",
-    "@types/react": "^18.2.47",
-    "@types/node": "^20.11.19"
+    "typescript": "^5.3.3",
+    "@types/react": "^18.2.36",
+    "@types/node": "^20.10.6"
   }
 }
